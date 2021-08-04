@@ -1,0 +1,70 @@
+:host {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.title {
+  position: relative;
+  width: max-content;
+  height: max-content;
+  flex: 0 0 auto;
+}
+.expansion-panel {
+  height: auto;
+  min-width: 100%;
+  min-height: 0;
+  flex: 0 0 auto;
+}
+.row-layout {
+  align-items: center;
+  justify-content: flex-end;
+  flex: 1 1 0;
+  min-width: 50px;
+  min-height: 50px;
+  position: relative;
+}
+.row-layout_1 {
+  flex: 1 1 0;
+  align-items: stretch;
+  min-width: 50px;
+  min-height: 50px;
+  position: relative;
+}
+.row-layout_2 {
+  align-items: stretch;
+  min-width: 50px;
+  min-height: 50px;
+  position: relative;
+}
+.body {
+  padding: 16px;
+}
+.date-picker {
+  min-width: 120px;
+  height: max-content;
+  flex: 0 0 auto;
+}
+.switch {
+  width: max-content;
+  height: max-content;
+  flex: 0 0 auto;
+}
+.drop-down {
+  top: 0;
+  left: 0;
+  position: absolute;
+  min-width: min-content;
+  height: max-content;
+  flex: 0 0 auto;
+}
+.combo {
+  min-width: min-content;
+  height: max-content;
+  flex: 0 0 auto;
+}
+.dropdown-item {
+  flex: 0 0 auto;
+}
+.row {
+  display: flex;
+}

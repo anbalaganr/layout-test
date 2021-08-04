@@ -1,0 +1,28 @@
+<h4 class="title">Dashboard</h4>
+<igx-expansion-panel [collapsed]="false" [igxToggleAction]="dropDown" class="expansion-panel">
+  <igx-expansion-panel-header iconPosition="right">
+    <igx-expansion-panel-title>Filter</igx-expansion-panel-title>
+  </igx-expansion-panel-header>
+  <igx-expansion-panel-body class="body">
+    <div class="row-layout_2 row">
+      <div class="row-layout_1 row">
+        <igx-combo [data]="northwindCategories" valueKey="categoryID" displayKey="categoryID" groupKey type="border" [disabled]="false" value="[]" [autoFocusSearch]="true" [showSearchCaseIcon]="false" [filterable]="true" class="combo"></igx-combo>
+      </div>
+      <div class="row-layout row">
+        <igx-switch labelPosition="after" [disabled]="false" [checked]="false" class="switch"></igx-switch>
+        <igx-date-picker [disabled]="false" mode="dialog" [displayMonthsCount]="1" class="date-picker"></igx-date-picker>
+      </div>
+    </div>
+  </igx-expansion-panel-body>
+</igx-expansion-panel>
+<igx-drop-down height="max-content" #dropDown class="drop-down">
+  <igx-drop-down-item [disabled]="false" [isHeader]="false" class="dropdown-item">
+    Option
+  </igx-drop-down-item>
+  <igx-drop-down-item [disabled]="false" [isHeader]="false" class="dropdown-item">
+    Option
+  </igx-drop-down-item>
+  <igx-drop-down-item [disabled]="false" [isHeader]="false" class="dropdown-item">
+    Option
+  </igx-drop-down-item>
+</igx-drop-down>

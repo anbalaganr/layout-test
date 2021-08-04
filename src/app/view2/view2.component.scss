@@ -1,0 +1,44 @@
+:host {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.title {
+  height: max-content;
+  min-width: min-content;
+  flex: 0 0 auto;
+}
+.row-layout {
+  min-width: 100%;
+  align-items: stretch;
+  position: relative;
+  min-height: 50px;
+}
+.row-layout_1 {
+  justify-content: flex-end;
+  min-width: 50px;
+  flex: 1 1 0;
+  align-items: stretch;
+  position: relative;
+  min-height: 50px;
+}
+.row-layout_2 {
+  min-width: 50px;
+  flex: 1 1 0;
+  align-items: stretch;
+  position: relative;
+  min-height: 50px;
+}
+.combo {
+  min-width: min-content;
+  height: max-content;
+  flex: 0 0 auto;
+}
+.date-picker {
+  min-width: 120px;
+  height: max-content;
+  flex: 0 0 auto;
+}
+.row {
+  display: flex;
+}

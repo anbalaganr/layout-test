@@ -1,0 +1,9 @@
+<h5 class="title">Dashboard</h5>
+<div class="row-layout row">
+  <div class="row-layout_2 row">
+    <igx-combo [data]="northwindCategories" valueKey="categoryID" displayKey="categoryID" groupKey type="border" [disabled]="false" value="[2,1,3,4]" [autoFocusSearch]="true" [showSearchCaseIcon]="false" [filterable]="true" class="combo"></igx-combo>
+  </div>
+  <div class="row-layout_1 row">
+    <igx-date-picker [disabled]="false" mode="dialog" [displayMonthsCount]="1" class="date-picker"></igx-date-picker>
+  </div>
+</div>
